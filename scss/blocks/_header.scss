@@ -1,0 +1,92 @@
+nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    background-color: white;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 43.5px 0;
+    text-align: center;
+
+    &__list {
+        display: flex;
+        gap: 33px;
+        padding: 6px 0;
+
+        &-li {
+            list-style: none;
+            a { 
+                font-family: 'Barlow', sans-serif;
+                font-weight: 700;
+                font-size: 12px;
+                line-height: 15px;
+                letter-spacing: 0.92px;
+                color: $nav-text-color;
+                text-transform: uppercase;
+                
+
+            } 
+        }
+    }
+}
+.hero {
+    padding: 117px 85px;
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+
+    &__content{
+        max-width: 493px;
+            & h1 {
+            font-family: 'Fraunces', serif;
+            color: rgba(254, 252, 247, 1);
+            font-weight: 900;
+            font-size: 72px;
+            line-height: 72px;
+            }
+            & p {
+                padding: 32px 0 56px;
+                font-family: 'Barlow', sans-serif;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                color: rgba(254, 252, 247, 1);
+                opacity: 80%;
+
+            }
+    }
+}
+// about.html
+.hero2 {
+    padding: 137px 85px;
+    background-image: url(/img/background2.png);
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+
+    &__content{
+        max-width: 445px;
+            & h1 {
+            font-family: 'Fraunces', serif;
+            color: rgba(254, 252, 247, 1);
+            font-weight: 900;
+            font-size: 72px;
+            line-height: 72px;
+            }
+            & p {
+                padding: 32px 0 0;
+                font-family: 'Barlow', sans-serif;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                color: rgba(254, 252, 247, 1);
+                opacity: 80%;
+            }
+    }
+}

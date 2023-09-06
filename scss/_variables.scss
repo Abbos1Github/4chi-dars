@@ -1,0 +1,21 @@
+$nav-text-color: rgba(131, 136, 143, 1);
+$main-blue-color: rgba(14, 135, 132, 1);
+button {
+    padding: 16px 31px;
+    background-color: $main-blue-color;
+    font-family: 'Fraunces', serif;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 25px;
+    text-align: center;
+    color: rgba(254, 252, 247, 1);
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: 0.5s;
+}
+button:hover {
+    color:  $main-blue-color;
+    background-color: rgba(254, 252, 247, 1);
+    border: 1px solid  $main-blue-color;
+}
